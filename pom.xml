@@ -14,7 +14,7 @@
     <description>Лабораторні роботи з об'єктно-орієнтованого програмування</description>
 
     <modules>
-        <module>coffee-van</module>
+        <module>LAB1</module>
     </modules>
 
     <properties>

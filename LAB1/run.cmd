@@ -82,7 +82,7 @@ if exist "%JAR%" (
     powershell -NoProfile -Command "$jar = (Get-Item -LiteralPath $env:JAR).LastWriteTime; $src = Get-ChildItem -LiteralPath (Join-Path $env:MODULE 'src\main\java'), (Join-Path $env:MODULE 'pom.xml'), (Join-Path $env:MODULE '..\pom.xml') -Recurse -File; if ($src | Where-Object { $_.LastWriteTime -gt $jar }) { exit 1 }" <nul && exit /b 0
 )
 echo Збираю програму, зачекайте...
-call "%MODULE%..\mvnw.cmd" -q -f "%MODULE%..\pom.xml" -pl coffee-van -am package -DskipTests <nul
+call "%MODULE%..\mvnw.cmd" -q -f "%MODULE%..\pom.xml" -pl :coffee-van -am package -DskipTests <nul
 exit /b %errorlevel%
 
 :finish

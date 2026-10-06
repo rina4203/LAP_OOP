@@ -107,7 +107,7 @@ ua.lab.coffeevan
    погодитися (або ПКМ по `pom.xml` → *Add as Maven Project*).
 2. Вказати JDK 17 або новішу: *File → Project Structure → Project → SDK*.
 3. Запустити `CoffeeVanApplication` (зелена стрілка біля методу `main`).
-4. Тести: ПКМ по `coffee-van/src/test/java` → *Run 'All Tests'*
+4. Тести: ПКМ по `LAB1/src/test/java` → *Run 'All Tests'*
    (або *Run with Coverage*).
 
 ### З консолі (Windows)
@@ -116,7 +116,7 @@ ua.lab.coffeevan
 змінився код), вмикає UTF-8 у консолі та запускає програму:
 
 ```bash
-coffee-van\run.cmd
+LAB1\run.cmd
 ```
 
 | Команда                  | Що робить                                  |
@@ -131,10 +131,10 @@ coffee-van\run.cmd
 ### Інтерактивний режим
 
 ```bash
-coffee-van\run.cmd shell
+LAB1\run.cmd shell
 ```
 
-або з даними сценарію: `coffee-van\run.cmd shell wholesale`. В IDEA —
+або з даними сценарію: `LAB1\run.cmd shell wholesale`. В IDEA —
 зелена стрілка біля `main` у [`CoffeeVanShell`](src/main/java/ua/lab/coffeevan/console/CoffeeVanShell.java).
 
 Є два списки: **каталог** (`catalog`) — товари, доступні для завантаження,
@@ -217,12 +217,12 @@ coffee-van\run.cmd shell
 ```
 
 ```bash
-java -jar coffee-van/target/coffee-van-1.0.jar
+java -jar LAB1/target/coffee-van-1.0.jar
 ```
 
 Можна передати власні файли: `java -jar coffee-van-1.0.jar van.properties catalog.csv`.
 
-Звіт про покриття тестами — `coffee-van/target/site/jacoco/index.html`.
+Звіт про покриття тестами — `LAB1/target/site/jacoco/index.html`.
 Збірка завершується помилкою, якщо тести покривають менше 95% рядків.
 
 ## Формат файлів

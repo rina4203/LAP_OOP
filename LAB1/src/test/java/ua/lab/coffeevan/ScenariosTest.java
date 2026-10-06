@@ -42,7 +42,7 @@ class ScenariosTest {
 
     private static final Path MODULE_DIR =
             Files.isDirectory(Path.of("scenarios")) ? Path.of("")
-                    : Path.of("coffee-van");
+                    : Path.of("LAB1");
     private static final Path SCENARIOS = MODULE_DIR.resolve("scenarios");
     private static final Path DEFAULT_DATA =
             MODULE_DIR.resolve("src/main/resources");
