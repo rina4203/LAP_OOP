@@ -19,6 +19,7 @@ out/
 # ---------- Java ----------
 *.class
 *.log
+logs/
 *.jar
 *.war
 hs_err_pid*
