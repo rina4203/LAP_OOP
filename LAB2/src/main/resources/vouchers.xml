@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<touristVouchers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="vouchers.xsd">
+
+    <touristVoucher id="v01" type="EXCURSION">
+        <country>Італія</country>
+        <duration days="8" nights="7"/>
+        <transport>AIR</transport>
+        <hotel stars="4">
+            <meals>BB</meals>
+            <room>2</room>
+            <tv>true</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">14500.00</service>
+            <service name="ACCOMMODATION">21000.00</service>
+            <service name="EXCURSIONS">4800.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v02" type="REST">
+        <country>Єгипет</country>
+        <duration days="11" nights="10"/>
+        <transport>AIR</transport>
+        <hotel stars="5">
+            <meals>AI</meals>
+            <room>2</room>
+            <tv>true</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">16800.00</service>
+            <service name="ACCOMMODATION">38500.00</service>
+            <service name="TRANSFER">1200.00</service>
+            <service name="INSURANCE">900.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v03" type="WEEKEND">
+        <country>Польща</country>
+        <duration days="3" nights="2"/>
+        <transport>AUTO</transport>
+        <hotel stars="3">
+            <meals>BB</meals>
+            <room>2</room>
+            <tv>true</tv>
+            <airConditioner>false</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">3200.00</service>
+            <service name="ACCOMMODATION">5400.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v04" type="PILGRIMAGE">
+        <country>Ізраїль</country>
+        <duration days="7" nights="6"/>
+        <transport>AIR</transport>
+        <hotel stars="3">
+            <meals>HB</meals>
+            <room>3</room>
+            <tv>true</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">15200.00</service>
+            <service name="ACCOMMODATION">13800.00</service>
+            <service name="MEALS">4200.00</service>
+            <service name="EXCURSIONS">3500.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v05" type="EXCURSION">
+        <country>Франція</country>
+        <duration days="6" nights="5"/>
+        <transport>RAIL</transport>
+        <hotel stars="3">
+            <meals>BB</meals>
+            <room>1</room>
+            <tv>true</tv>
+            <airConditioner>false</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">11800.00</service>
+            <service name="ACCOMMODATION">19500.00</service>
+            <service name="EXCURSIONS">6200.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v06" type="REST">
+        <country>Туреччина</country>
+        <duration days="8" nights="7"/>
+        <transport>AIR</transport>
+        <hotel stars="4">
+            <meals>AI</meals>
+            <room>3</room>
+            <tv>true</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">12400.00</service>
+            <service name="ACCOMMODATION">24600.00</service>
+            <service name="TRANSFER">900.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v07" type="HEALTH">
+        <country>Чехія</country>
+        <duration days="12" nights="11"/>
+        <transport>RAIL</transport>
+        <hotel stars="4">
+            <meals>FB</meals>
+            <room>1</room>
+            <tv>true</tv>
+            <airConditioner>false</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">7600.00</service>
+            <service name="ACCOMMODATION">33000.00</service>
+            <service name="MEALS">9800.00</service>
+            <service name="INSURANCE">700.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v08" type="WEEKEND">
+        <country>Угорщина</country>
+        <duration days="4" nights="3"/>
+        <transport>AUTO</transport>
+        <hotel stars="3">
+            <meals>NONE</meals>
+            <room>2</room>
+            <tv>false</tv>
+            <airConditioner>false</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">2900.00</service>
+            <service name="ACCOMMODATION">6300.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v09" type="REST">
+        <country>Греція</country>
+        <duration days="9" nights="8"/>
+        <transport>LINER</transport>
+        <hotel stars="5">
+            <meals>FB</meals>
+            <room>2</room>
+            <tv>true</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">29500.00</service>
+            <service name="ACCOMMODATION">31000.00</service>
+            <service name="EXCURSIONS">5400.00</service>
+            <service name="INSURANCE">1100.00</service>
+        </cost>
+    </touristVoucher>
+
+    <touristVoucher id="v10" type="PILGRIMAGE">
+        <country>Греція</country>
+        <duration days="5" nights="4"/>
+        <transport>AIR</transport>
+        <hotel stars="2">
+            <meals>HB</meals>
+            <room>3</room>
+            <tv>false</tv>
+            <airConditioner>true</airConditioner>
+        </hotel>
+        <cost>
+            <service name="TRANSPORT">9800.00</service>
+            <service name="ACCOMMODATION">7200.00</service>
+            <service name="MEALS">2600.00</service>
+        </cost>
+    </touristVoucher>
+</touristVouchers>
