@@ -1,0 +1,15 @@
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.aab
+
+# Ключі Firebase не публікуються; кожен додає свій файл з консолі Firebase
+app/google-services.json
+
+# Кореневий .gitignore ігнорує *.jar, але jar обгортки Gradle потрібен у репозиторії
+!gradle/wrapper/gradle-wrapper.jar
