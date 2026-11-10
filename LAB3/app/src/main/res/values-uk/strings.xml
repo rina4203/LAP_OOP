@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нотатки</string>
+
+    <string name="notes_title">Нотатки</string>
+    <string name="search_hint">Пошук нотаток</string>
+    <string name="empty_notes">Нотаток ще немає. Натисніть +, щоб створити.</string>
+    <string name="empty_search">Нічого не знайдено</string>
+    <string name="untitled">Без назви</string>
+    <string name="updated_at">Змінено %1$s</string>
+    <plurals name="notes_count">
+        <item quantity="one">%d нотатка</item>
+        <item quantity="few">%d нотатки</item>
+        <item quantity="many">%d нотаток</item>
+        <item quantity="other">%d нотатки</item>
+    </plurals>
+    <plurals name="pending_changes">
+        <item quantity="one">%d зміна ще не синхронізована</item>
+        <item quantity="few">%d зміни ще не синхронізовані</item>
+        <item quantity="many">%d змін ще не синхронізовано</item>
+        <item quantity="other">%d зміни ще не синхронізовано</item>
+    </plurals>
+
+    <string name="action_add">Нова нотатка</string>
+    <string name="action_sync">Синхронізувати</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_back">Назад</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_cancel">Скасувати</string>
+
+    <string name="new_note">Нова нотатка</string>
+    <string name="edit_note">Нотатка</string>
+    <string name="edit_title_hint">Заголовок</string>
+    <string name="edit_content_hint">Текст нотатки</string>
+    <string name="delete_confirm_title">Видалити нотатку?</string>
+    <string name="delete_confirm_text">Під час наступної синхронізації її також буде видалено з хмари.</string>
+
+    <string name="sync_done">Синхронізовано: %1$s, %2$s</string>
+    <plurals name="sync_sent">
+        <item quantity="one">надіслано %d нотатку</item>
+        <item quantity="few">надіслано %d нотатки</item>
+        <item quantity="many">надіслано %d нотаток</item>
+        <item quantity="other">надіслано %d нотатки</item>
+    </plurals>
+    <plurals name="sync_received">
+        <item quantity="one">отримано %d нотатку</item>
+        <item quantity="few">отримано %d нотатки</item>
+        <item quantity="many">отримано %d нотаток</item>
+        <item quantity="other">отримано %d нотатки</item>
+    </plurals>
+    <string name="sync_not_signed_in">Щоб синхронізувати з хмарою, увійдіть у налаштуваннях</string>
+    <string name="sync_unavailable">Хмарну синхронізацію не налаштовано</string>
+    <string name="sync_failed">Не вдалося синхронізувати. Перевірте з\'єднання з інтернетом.</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="language_title">Мова</string>
+    <string name="language_system">Як у системі</string>
+
+    <string name="account_title">Хмарний акаунт</string>
+    <string name="account_unavailable">Додайте google-services.json у модуль app, щоб увімкнути синхронізацію через Firebase.</string>
+    <string name="account_signed_in_as">Ви увійшли як %1$s</string>
+    <string name="email_hint">Електронна пошта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="action_sign_in">Увійти</string>
+    <string name="action_register">Створити акаунт</string>
+    <string name="action_sign_out">Вийти</string>
+
+    <string name="error_empty_fields">Введіть пошту й пароль</string>
+    <string name="error_invalid_credentials">Неправильна пошта або пароль</string>
+    <string name="error_invalid_email">Неправильна адреса пошти</string>
+    <string name="error_email_in_use">Акаунт із такою поштою вже існує</string>
+    <string name="error_weak_password">Пароль має містити щонайменше 6 символів</string>
+    <string name="error_network">Немає з\'єднання з інтернетом</string>
+    <string name="error_unknown">Щось пішло не так. Спробуйте ще раз.</string>
+</resources>
