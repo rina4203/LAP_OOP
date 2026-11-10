@@ -3,7 +3,12 @@
 
 # Скрипти Windows і описи сценаріїв (їх читає cmd) - завжди з CRLF
 *.cmd text eol=crlf
+*.bat text eol=crlf
 about.txt text eol=crlf
 
-# Скрипт для Linux/macOS - завжди з LF
+# Скрипти для Linux/macOS - завжди з LF
 mvnw text eol=lf
+gradlew text eol=lf
+
+# Двійкові файли не змінюються
+*.jar binary
